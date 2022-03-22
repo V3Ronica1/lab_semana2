@@ -30,11 +30,12 @@ public class Practica_sem2 {
     }
     private static void sumar(int x, int y, String nombre){
         int resultado = x + y;
-        System.out.println(  "te ganaste un total de: " + resultado);
+        System.out.println( nombre +  "te ganaste un total de: " + resultado);
         
     }
-     private static double raiz_cuadrada(valor x){
+     private static double raiz_cuadrada(double x){
          
-         
+         double valor= Math.sqrt(x);
+         return valor;
      }
 }
